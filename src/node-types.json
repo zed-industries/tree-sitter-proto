@@ -12,6 +12,10 @@
           "named": true
         },
         {
+          "type": "full_ident",
+          "named": true
+        },
+        {
           "type": "identifier",
           "named": true
         }
@@ -115,6 +119,10 @@
         {
           "type": "option",
           "named": true
+        },
+        {
+          "type": "reserved",
+          "named": true
         }
       ]
     }
@@ -175,6 +183,40 @@
         },
         {
           "type": "identifier",
+          "named": true
+        }
+      ]
+    }
+  },
+  {
+    "type": "extend",
+    "named": true,
+    "fields": {},
+    "children": {
+      "multiple": true,
+      "required": true,
+      "types": [
+        {
+          "type": "full_ident",
+          "named": true
+        },
+        {
+          "type": "message_body",
+          "named": true
+        }
+      ]
+    }
+  },
+  {
+    "type": "extensions",
+    "named": true,
+    "fields": {},
+    "children": {
+      "multiple": false,
+      "required": true,
+      "types": [
+        {
+          "type": "ranges",
           "named": true
         }
       ]
@@ -383,6 +425,14 @@
         },
         {
           "type": "enum",
+          "named": true
+        },
+        {
+          "type": "extend",
+          "named": true
+        },
+        {
+          "type": "extensions",
           "named": true
         },
         {
@@ -688,7 +738,7 @@
     "fields": {},
     "children": {
       "multiple": true,
-      "required": true,
+      "required": false,
       "types": [
         {
           "type": "empty_statement",
@@ -696,6 +746,10 @@
         },
         {
           "type": "enum",
+          "named": true
+        },
+        {
+          "type": "extend",
           "named": true
         },
         {
@@ -762,6 +816,10 @@
   },
   {
     "type": "\"",
+    "named": false
+  },
+  {
+    "type": "\"proto2\"",
     "named": false
   },
   {
@@ -853,6 +911,14 @@
     "named": true
   },
   {
+    "type": "extend",
+    "named": false
+  },
+  {
+    "type": "extensions",
+    "named": false
+  },
+  {
     "type": "false",
     "named": true
   },
@@ -930,6 +996,10 @@
   },
   {
     "type": "repeated",
+    "named": false
+  },
+  {
+    "type": "required",
     "named": false
   },
   {
