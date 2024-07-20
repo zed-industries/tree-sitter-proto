@@ -9,3 +9,6 @@
 The grammar should be complete. I'm still working on the highlighting queries.
 I've tested the grammar against some really large and nasty proto files
 and it passes. Once the highlighting is stable, I'll tag 1.0.
+
+## Modifications on fork
+- Applied https://github.com/mitchellh/tree-sitter-proto/pull/9

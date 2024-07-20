@@ -6,7 +6,7 @@
 //! ```
 //! let code = "";
 //! let mut parser = tree_sitter::Parser::new();
-//! parser.set_language(&tree_sitter_proto::language()).expect("Error loading proto grammar");
+//! parser.set_language(&protols_tree_sitter_proto::language()).expect("Error loading proto grammar");
 //! let tree = parser.parse(code, None).unwrap();
 //! ```
 //!
